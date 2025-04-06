@@ -39,8 +39,8 @@ onMounted(() => {
 
 <template>
     <div
-        class="w-full h-80 bg-white/80 isolate flex flex-row items-center p-2 justify-between mb-4 rounded-lg shadow hover:shadow-xl transition duration-500">
-        <div class="h-full w-4/6 flex flex-col items-start p-4">
+        class="w-full min-h-80 h-auto md:h-80 bg-white/80 isolate flex flex-col md:flex-row items-center p-2 justify-between mb-4 rounded-lg shadow hover:shadow-xl transition duration-500">
+        <div class="h-full w-full md:w-4/6 flex flex-col items-start p-4">
             <div class="w-full">
                 <h1 class="text-4xl mb-2">{{ props.title }}</h1>
                 <hr class="w-full border-gray-400 mb-2">
@@ -57,7 +57,7 @@ onMounted(() => {
             </div>
 
         </div>
-        <div class="w-2/6 h-full p-2 rounded-md">
+        <div class="md:w-2/6 h-full p-2 rounded-md">
             <img class="h-full w-full object-cover rounded-md shadow-md" :src="props.image" alt="Project image">
         </div>
     </div>

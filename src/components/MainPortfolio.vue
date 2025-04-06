@@ -51,7 +51,7 @@ const scrollToProject = () => {
                         <span class="text-red-500 font-bold">Laravel</span> y <span class="text-green-400 font-bold">Vue
                             3</span>. Actualmente trabajo como
                         <span class="text-blue-500 font-bold">profesor de programación</span> en
-                        <a href="https://codelearn.es/"
+                        <a href="https://codelearn.es/" target="_blank"
                             class="text-blue-400 hover:text-green-400 duration-200 transition-colors underline">CodeLearn</a>.
                         <br><br>
                         Mi objetivo es <span class="font-semibold text-gray-800">mejorar un poco cada día</span> y
@@ -121,7 +121,7 @@ const scrollToProject = () => {
                     image="https://www.uc3m.es/sdic/media/sdic/img/mediana/original/im_microsoft-ssoo-cliente---icono/im_microsoft-ssoo-cliente---icono.png">
                 </Skill>
             </div>
-            <h1 class="text-6xl mb-8 border-b-2 border-gray-400">Proyectos</h1>
+            <h1 class="text-6xl mb-8 border-b-2 border-gray-400 mt-5">Proyectos</h1>
             <Project id="osiris" title="Osiris"
                 description="Osiris es una aplicación web creada para ayudar a organizar las tareas del día a día, lecturas, estudios y recuerdos. Usando herramientas por la creación y finalización de tareas, el método Pomodoro de estudio y una integración con inteligencia artificial para poder resumir textos y preparar planes de estudio personalizados."
                 url="https://osiris.cat/" image="./projects/osiris.PNG"></Project>
@@ -131,6 +131,14 @@ const scrollToProject = () => {
             <Project id="zstep" title="Z-Step Rythm Mania"
                 description="Z-Step Rythm Mania es un proyecto basado en crear un juego de ritmo con PHP y JavaScript puro, usando JSONs en vez de bases de datos."
                 url="disabled" image="./projects/zstep.png"></Project>
+            <div class="w-full bg-gray-100 p-4 rounded-lg shadow mb-4">
+                <p class="text-sm text-gray-600">
+                    Este sitio utiliza <a href="https://clarity.microsoft.com/" target="_blank"
+                        class="text-blue-500 hover:underline">Microsoft Clarity</a> para recopilar datos de uso y
+                    mejorar la
+                    experiencia del usuario. Al continuar navegando, aceptas el uso de estas herramientas.
+                </p>
+            </div>
         </div>
     </main>
 </template>

@@ -16,11 +16,11 @@
 </script>
 <template>
     <div 
-        class="skill-container w-full min-h-24 h-auto max-h-36 bg-white/20 isolate p-4 flex items-center justify-between rounded-lg shadow relative hover:shadow-xl transition duration-500"
+        class="skill-container w-full min-h-24 h-auto md:max-h-36 bg-white/20 isolate p-4 flex items-center justify-between rounded-lg shadow relative hover:shadow-xl transition duration-500"
         :style="{ '--background-image': `url(${props.image})` }"
     >
         <div class="flex flex-col items-start z-10">
-            <h1 class="text-4xl">{{ props.title }}</h1>
+            <h1 class="text-3xl md:text-4xl">{{ props.title }}</h1>
             <p>{{ props.description }}</p>
         </div>
     </div>
