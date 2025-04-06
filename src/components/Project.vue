@@ -39,7 +39,7 @@ onMounted(() => {
 
 <template>
     <div
-        class="w-full min-h-80 max-h-auto md:max-h-80 bg-white/80 isolate flex flex-row items-center p-2 justify-between mb-4 rounded-lg shadow hover:shadow-xl transition duration-500">
+        class="w-full h-80 bg-white/80 isolate flex flex-row items-center p-2 justify-between mb-4 rounded-lg shadow hover:shadow-xl transition duration-500">
         <div class="h-full w-4/6 flex flex-col items-start p-4">
             <div class="w-full">
                 <h1 class="text-4xl mb-2">{{ props.title }}</h1>
