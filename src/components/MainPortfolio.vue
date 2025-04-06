@@ -44,7 +44,7 @@ const scrollToProject = () => {
                 id="about-me">
                 <h1 class="text-4xl mb-2">Sobre mi</h1>
                 <hr class="w-full border-gray-400 mb-2">
-                <div class="flex flex-row justify-around w-full">
+                <div class="flex flex-col-reverse md:flex-row justify-around w-full">
                     <p class="text-lg text-gray-600 leading-relaxed max-w-lg">
                         <span class="font-semibold text-gray-800">¡Hola! 👋</span> Soy un <span
                             class="text-green-500 font-bold">programador web full-stack</span> enfocado en
@@ -124,13 +124,13 @@ const scrollToProject = () => {
             <h1 class="text-6xl mb-8 border-b-2 border-gray-400">Proyectos</h1>
             <Project id="osiris" title="Osiris"
                 description="Osiris es una aplicación web creada para ayudar a organizar las tareas del día a día, lecturas, estudios y recuerdos. Usando herramientas por la creación y finalización de tareas, el método Pomodoro de estudio y una integración con inteligencia artificial para poder resumir textos y preparar planes de estudio personalizados."
-                url="https://osiris.cat/" image="/projects/osiris.PNG"></Project>
+                url="https://osiris.cat/" image="./projects/osiris.PNG"></Project>
             <Project id="scope" title="Scope"
                 description="Scope nace no como un producto sino como una solución por un problema que todo el mundo puede tener, la falta de gestión. Más en concreto nos centramos a ofrecer una herramienta para poder gestionar tareas y mantenimientos sobre las máquinas que pueda tener el cliente. Nuestro gestor ofrece opciones como añadir usuarios, tareas y máquinas, gestión de roles, lector y generador de QR, etc. Just el que una empresa como la tuya necesita. #JOINSCOPE"
-                url="disabled" image="/projects/scope.svg"></Project>
+                url="disabled" image="./projects/scope.svg"></Project>
             <Project id="zstep" title="Z-Step Rythm Mania"
                 description="Z-Step Rythm Mania es un proyecto basado en crear un juego de ritmo con PHP y JavaScript puro, usando JSONs en vez de bases de datos."
-                url="disabled" image="/projects/zstep.png"></Project>
+                url="disabled" image="./projects/zstep.png"></Project>
         </div>
     </main>
 </template>
