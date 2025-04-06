@@ -16,7 +16,7 @@
 </script>
 <template>
     <div 
-        class="skill-container w-full h-24 bg-white/20 isolate p-4 flex items-center justify-between rounded-lg shadow relative hover:shadow-xl transition duration-500"
+        class="skill-container w-full min-h-24 h-auto max-h-36 bg-white/20 isolate p-4 flex items-center justify-between rounded-lg shadow relative hover:shadow-xl transition duration-500"
         :style="{ '--background-image': `url(${props.image})` }"
     >
         <div class="flex flex-col items-start z-10">
