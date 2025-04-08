@@ -112,7 +112,8 @@ const scrollToProject = () => {
                     image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png">
                 </Skill>
                 <Skill title="WordPress"
-                    description="Formación y experiencia en WordPress, WooCommerce, Divi, Elementor, Beaver Builder y desarrollo de plugins y temas."
+                    class="text-sm"
+                    description="Experiencia en WordPress, WooCommerce, Divi, Elementor, Beaver Builder, desarrollo de plugins y temas."
                     image="https://s.w.org/style/images/about/WordPress-logotype-wmark.png"></Skill>
                 <Skill title="Ubuntu Server" description="Formación en Ubuntu Server ^20.0"
                     image="https://www.irontec.com/image/trainingsFull/18-curso-linux-ubuntu-administracion-basico.png">
